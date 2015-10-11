@@ -30,9 +30,13 @@ main() {
     unzip resources_old.zip -d resources_old/
 
     msg "Downloading icons..."
+    # the notifcation icon
+    wget -O spotify_icon.ico https://raw.githubusercontent.com/rcatajar/fix-spotify-icon/master/src/images/spotify_icon.ico
+    # the tray icon
     wget -O icon.png https://raw.githubusercontent.com/rcatajar/fix-spotify-icon/master/src/images/icon.png
 
     msg "Replacing the icons..."
+    cp spotify_icon.ico resources_old/_linux/spotify_icon.ico
     cp icon.png resources_old/_linux/spotify-linux-16.png
     cp icon.png resources_old/_linux/spotify-linux-22.png
     cp icon.png resources_old/_linux/spotify-linux-24.png
