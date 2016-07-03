@@ -1,3 +1,11 @@
+# Warning: No longer work
+
+It seems like Spotify removed the tray icon in latest updates. 
+
+# TODO
+
+Add controls to dock icon => http://stackoverflow.com/questions/35750488/spotify-does-not-have-icon-on-systray-in-ubuntu-14-04
+
 # fix-spotify-icon
 > Shell script to fix the Spotify icon in Elementary OS Freya
 
